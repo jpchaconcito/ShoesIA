@@ -36,3 +36,7 @@ header {
   .title{
     background-color: rgb(26, 107, 107);
   }
+
+.list img{
+    margin-right: 20px;
+}
