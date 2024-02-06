@@ -8,3 +8,125 @@ body {
     text-transform: capitalize;
     background-color: #dadada;
 }
+.destacado {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.productoo {
+    padding: 35px;
+    background: #14001c;
+}
+
+.conntainer-slider {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    box-shadow:
+        0 0 2px rgba(148, 0, 211, 1),
+        0 0 4px rgba(148, 0, 211, 1),
+        0 0 8px rgba(148, 0, 211, 1),
+        0 0 16px rgb(87, 38, 127, 1),
+        0 0 32px rgba(87, 38, 127, 1),
+        0 0 48px rgba(87, 38, 127, 1),
+        0 0 50px rgb(48, 20, 71, 1),
+        0 0 60px rgba(48, 20, 71, 1),
+        0 0 70px rgba(48, 20, 71, 1);
+        border-radius: 10px;
+}
+
+.slider {
+    display: flex;
+    width: 400%;
+    height: 500px;
+    margin-left: -100%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.);
+}
+
+.slider-section {
+    width: 100%;
+    display: flex;
+}
+
+.slider-img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+}
+
+.slider-img-red {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0 10px 10px 0;
+}
+
+.description {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 0 10px 10px 0;
+    text-align: center;
+}
+
+.description-red {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+}
+
+.description h2,
+.description h3,
+.description p {
+    margin: 10px 0;
+    color: #333;
+    text-align: center;
+}
+
+.slider-btn {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: rgba(148, 0, 211, 0.25);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 35%;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.slider-btn:hover {
+    background: #9400d3;
+    box-shadow:
+        0 0 2px rgba(148, 0, 211, 1),
+        0 0 4px rgba(148, 0, 211, 1),
+        0 0 8px rgba(148, 0, 211, 1),
+        0 0 16px rgb(87, 38, 127, 1),
+        0 0 32px rgba(87, 38, 127, 1),
+        0 0 48px rgba(87, 38, 127, 1),
+        0 0 50px rgb(48, 20, 71, 1),
+        0 0 60px rgba(48, 20, 71, 1),
+        0 0 70px rgba(48, 20, 71, 1);
+}
+
+.slider-btn-right {
+    right: 10px;
+}
+
+.slider-btn-left {
+    left: 10px;
+}

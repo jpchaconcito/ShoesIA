@@ -48,6 +48,8 @@
     clip-path: circle(45%);
     border-radius: 10px;
     padding: 5px;
+    height: 150px;
+    width: 150px;
 }
 .producto img:hover {
     transform: scale(1.1);
