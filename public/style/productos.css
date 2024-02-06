@@ -17,7 +17,7 @@
     height: auto;
     margin: 0;
     padding: 20px;
-    background-color: #ededed;
+    background-color: #ffffff;
     border-radius: 10px;
 }
 .producto {
@@ -27,7 +27,7 @@
     align-items: center;
     margin: 10px;
     padding: 10px;
-    border: 1px solid #aaaaaa;
+    border: 1px solid #dadada;
     border-radius: 10px;
     width: 200px;
     height: 300px;
