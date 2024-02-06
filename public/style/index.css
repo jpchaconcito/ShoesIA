@@ -3,3 +3,41 @@
     margin: 0;
     box-sizing: border-box;
 }
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    
+    color: #000000;
+    padding: 20px;
+    z-index: 1000;
+  }
+  .navinicio{
+    background-color: rgb(26, 107, 107);
+  }
+  nav{
+    background-color: rgb(26, 107, 107);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    background-color: rgb(26, 107, 107);
+    list-style-type: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    background-color: rgb(26, 107, 107);
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    background-color: rgb(26, 107, 107);
+    color: #fff;
+    text-decoration: none;
+  }
+  .title{
+    background-color: rgb(26, 107, 107);
+  }
